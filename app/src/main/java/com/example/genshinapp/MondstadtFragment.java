@@ -31,6 +31,7 @@ public class MondstadtFragment extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
+        //return to previous fragment
         binding.previous2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -39,6 +40,7 @@ public class MondstadtFragment extends Fragment {
             }
         });
 
+        //proceed to jean fragment when button is clicked
         binding.jean.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -47,6 +49,7 @@ public class MondstadtFragment extends Fragment {
             }
         });
 
+        //proceed to lisa fragment when button is clicked
         binding.lisa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -55,6 +58,7 @@ public class MondstadtFragment extends Fragment {
             }
         });
 
+        //proceed to eula fragment when button is clicked
         binding.eula.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -63,6 +67,7 @@ public class MondstadtFragment extends Fragment {
             }
         });
 
+        //proceed to venti fragment when button is clicked
         binding.venti.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -71,11 +76,21 @@ public class MondstadtFragment extends Fragment {
             }
         });
 
+        //proceed to diluc fragment when button is clicked
         binding.diluc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(MondstadtFragment.this)
                         .navigate(R.id.action_Mondstadt_to_dilucFragment);
+            }
+        });
+
+        //proceed to klee fragment when button is clicked
+        binding.klee.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(MondstadtFragment.this)
+                        .navigate(R.id.action_Mondstadt_to_kleeFragment);
             }
         });
 

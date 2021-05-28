@@ -18,7 +18,7 @@
         <i>Genshin Impact</i>. She is the daughter of <b>Frederica Gunnhildr</b> and <b>Seamus Pegg</b>,
         and the older sister of <b>Barbara</b>.</p>
 
-    <!-- Jean Text -->
+        <!-- Jean Text -->
 
     </string>
     <string name="jeanOverview2_txt">
@@ -81,6 +81,19 @@
     Winery</b> and a nobleman of high esteem in <b>Mondstadt</b> society. While a past incident
         caused him to split ways with the <b>Knights of Favonius</b>, he continues to protect
         Mondstadt in his own way.
+    </p>
+    </string>
+
+    <!-- Klee Text -->
+
+    <string name="kleeOverview_txt">
+    <p><b>Klee</b> is a playable <b>Pyro</b> character in <i>Genshin Impact</i>.</p>
+    </string>
+
+    <string name="kleeOverview2_txt">
+    <p>The daughter of the intrepid - and destructive - adventurer <b>Alice</b>, Klee takes after
+        her mother in many ways, much to the consternation of the <b>Knights of Favonius</b> whom
+        she has been entrusted to.
     </p>
     </string>
 

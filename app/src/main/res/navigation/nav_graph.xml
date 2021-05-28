@@ -51,6 +51,9 @@
         <action
             android:id="@+id/action_Mondstadt_to_dilucFragment"
             app:destination="@id/dilucFragment" />
+        <action
+            android:id="@+id/action_Mondstadt_to_kleeFragment"
+            app:destination="@id/kleeFragment" />
     </fragment>
     <fragment
         android:id="@+id/jeanFragment"
@@ -77,4 +80,9 @@
         android:name="com.example.genshinapp.DilucFragment"
         android:label="Diluc Ragnvindr"
         tools:layout="@layout/fragment_diluc" />
+    <fragment
+        android:id="@+id/kleeFragment"
+        android:name="com.example.genshinapp.KleeFragment"
+        android:label="fragment_klee"
+        tools:layout="@layout/fragment_klee" />
 </navigation>
