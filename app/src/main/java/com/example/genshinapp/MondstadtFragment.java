@@ -63,6 +63,14 @@ public class MondstadtFragment extends Fragment {
             }
         });
 
+        binding.venti.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(MondstadtFragment.this)
+                        .navigate(R.id.action_Mondstadt_to_ventiFragment);
+            }
+        });
+
     }
 
     @Override

@@ -45,6 +45,9 @@
         <action
             android:id="@+id/action_Mondstadt_to_eulaFragment"
             app:destination="@id/eulaFragment" />
+        <action
+            android:id="@+id/action_Mondstadt_to_ventiFragment"
+            app:destination="@id/ventiFragment" />
     </fragment>
     <fragment
         android:id="@+id/jeanFragment"
@@ -61,4 +64,9 @@
         android:name="com.example.genshinapp.EulaFragment"
         android:label="Eula Lawrence"
         tools:layout="@layout/fragment_eula" />
+    <fragment
+        android:id="@+id/ventiFragment"
+        android:name="com.example.genshinapp.VentiFragment"
+        android:label="Venti"
+        tools:layout="@layout/fragment_venti" />
 </navigation>

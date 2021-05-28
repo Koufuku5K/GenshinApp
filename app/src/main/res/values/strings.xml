@@ -15,7 +15,7 @@
     <string name="jeanOverview_txt">
 
         <p><b>Jean Gunnhildr</b> is a playable <b>Anemo</b> character in
-        <b>Genshin Impact</b>. She is the daughter of <b>Frederica Gunnhildr</b> and <b>Seamus Pegg</b>,
+        <i>Genshin Impact</i>. She is the daughter of <b>Frederica Gunnhildr</b> and <b>Seamus Pegg</b>,
         and the older sister of <b>Barbara</b>.</p>
 
     </string>
@@ -48,6 +48,18 @@
             <b>Schubert</b>, Eula is the captain of the Reconnaissance Company with the
             <b>Knights of Favonius</b>.
         </p>
+    </string>
+
+    <string name="ventiOverview_txt">
+    <p><b>Venti</b> is a free-spirited, wine-loving bard in <b>Mondstadt</b> and the current
+    mortal vessel of <b>Barbatos</b>, the <b>Anemo Archon</b>. He is also a playable
+    <b>Anemo</b> character in <i>Genshin Impact</i>.</p>
+    </string>
+
+    <string name="ventiOverview2_txt">
+    <p>He first appears during the <b>Archon Quest Prologue</b>: Act I - <b>The Outlander Who
+    Caught the Wind</b>.
+    </p>
     </string>
 
 </resources>
