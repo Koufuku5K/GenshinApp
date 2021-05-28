@@ -103,6 +103,15 @@ public class MondstadtFragment extends Fragment {
             }
         });
 
+        //proceed to albedo fragment when button is clicked
+        binding.albedo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(MondstadtFragment.this)
+                        .navigate(R.id.action_Mondstadt_to_albedoFragment);
+            }
+        });
+
     }
 
     @Override

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MonaFragment">
+    tools:context=".AlbedoFragment">
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -21,7 +21,7 @@
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_height="333dp"
-                android:src="@drawable/character_mona_portrait" />
+                android:src="@drawable/character_albedo_portrait" />
 
             <TextView
                 android:id="@+id/textView"
@@ -49,7 +49,7 @@
                 android:layout_marginEnd="34dp"
                 android:layout_marginRight="34dp"
                 android:gravity="center"
-                android:text="@string/monaOverview_txt"
+                android:text="@string/albedoOverview_txt"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
             <TextView
@@ -62,7 +62,7 @@
                 android:layout_marginEnd="34dp"
                 android:layout_marginRight="34dp"
                 android:gravity="center"
-                android:text="@string/monaOverview2_txt"
+                android:text="@string/albedoOverview2_txt"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
         </LinearLayout>

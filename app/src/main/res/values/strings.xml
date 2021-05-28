@@ -110,4 +110,19 @@
     </p>
     </string>
 
+    <!-- Albedo Text -->
+
+    <string name="albedoOverview_txt">
+    <p><b>Albedo</b>, also known as the <b>Kreideprinz</b>, is a playable <b>Geo</b> character in
+    <i>Genshin Impact</i>.</p>
+    </string>
+
+    <string name="albedoOverview2_txt">
+    <p>The mysterious Albedo is the Chief Alchemist and Captain of the Investigation Team of the
+        <b>Knights of Favonius</b> through a recommendation from the adventurer <b>Alice</b>, with
+        <b>Sucrose</b> as his assistant. He holds an infinite desire to learn about the world of
+        Teyvat, carefully studying every object around him.
+    </p>
+    </string>
+
 </resources>

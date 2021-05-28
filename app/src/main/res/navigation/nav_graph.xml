@@ -57,6 +57,9 @@
         <action
             android:id="@+id/action_Mondstadt_to_monaFragment"
             app:destination="@id/monaFragment" />
+        <action
+            android:id="@+id/action_Mondstadt_to_albedoFragment"
+            app:destination="@id/albedoFragment" />
     </fragment>
     <fragment
         android:id="@+id/jeanFragment"
@@ -93,4 +96,9 @@
         android:name="com.example.genshinapp.MonaFragment"
         android:label="Mona Megistus"
         tools:layout="@layout/fragment_mona" />
+    <fragment
+        android:id="@+id/albedoFragment"
+        android:name="com.example.genshinapp.AlbedoFragment"
+        android:label="Albedo"
+        tools:layout="@layout/fragment_albedo" />
 </navigation>
