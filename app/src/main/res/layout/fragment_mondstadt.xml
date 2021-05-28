@@ -32,6 +32,17 @@
         app:layout_constraintVertical_bias="0.114" />
 
     <Button
+        android:id="@+id/eula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="20dp"
+        android:text="Eula"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jean" />
+
+    <Button
         android:id="@+id/previous2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

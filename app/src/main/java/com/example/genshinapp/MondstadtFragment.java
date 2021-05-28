@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+import androidx.navigation.NavHost;
 import androidx.navigation.fragment.NavHostFragment;
 
 import com.example.genshinapp.databinding.FragmentMondstadtBinding;
@@ -51,6 +52,14 @@ public class MondstadtFragment extends Fragment {
             public void onClick(View view) {
                 NavHostFragment.findNavController(MondstadtFragment.this)
                         .navigate(R.id.action_Mondstadt_to_lisaFragment);
+            }
+        });
+
+        binding.eula.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(MondstadtFragment.this)
+                        .navigate(R.id.action_Mondstadt_to_eulaFragment);
             }
         });
 

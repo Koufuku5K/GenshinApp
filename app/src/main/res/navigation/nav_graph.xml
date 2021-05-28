@@ -42,6 +42,9 @@
         <action
             android:id="@+id/action_Mondstadt_to_lisaFragment"
             app:destination="@id/lisaFragment" />
+        <action
+            android:id="@+id/action_Mondstadt_to_eulaFragment"
+            app:destination="@id/eulaFragment" />
     </fragment>
     <fragment
         android:id="@+id/jeanFragment"
@@ -53,4 +56,9 @@
         android:name="com.example.genshinapp.LisaFragment"
         android:label="Lisa Minci"
         tools:layout="@layout/fragment_lisa" />
+    <fragment
+        android:id="@+id/eulaFragment"
+        android:name="com.example.genshinapp.EulaFragment"
+        android:label="Eula Lawrence"
+        tools:layout="@layout/fragment_eula" />
 </navigation>

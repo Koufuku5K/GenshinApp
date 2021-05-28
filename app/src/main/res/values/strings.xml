@@ -34,9 +34,20 @@
     </string>
 
     <string name="lisaOverview2_txt">
-        <p>Once a grand mage recognized as the <b>Sumeru Academia</b>'s most distinguished graduate
+        <p>Once a grand mage recognized as the <b>Sumeru Academia</b>\'s most distinguished graduate
         in 200 years, Lisa has since returned to Mondstadt to become the humble Librarian of the
         <b>Knights of Favonius</b>.</p>
+    </string>
+
+    <string name="eulaOverview_txt">
+        <p><b>Eula Lawrence</b> is a playable <b>Cryo</b> character in <i>Genshin Impact</i>.</p>
+    </string>
+
+    <string name="eulaOverview2_txt">
+        <p>A descendant of the infamous and tyrannical <b>Lawrence Clan</b> and niece of
+            <b>Schubert</b>, Eula is the captain of the Reconnaissance Company with the
+            <b>Knights of Favonius</b>.
+        </p>
     </string>
 
 </resources>
