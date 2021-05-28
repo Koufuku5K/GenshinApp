@@ -54,6 +54,9 @@
         <action
             android:id="@+id/action_Mondstadt_to_kleeFragment"
             app:destination="@id/kleeFragment" />
+        <action
+            android:id="@+id/action_Mondstadt_to_monaFragment"
+            app:destination="@id/monaFragment" />
     </fragment>
     <fragment
         android:id="@+id/jeanFragment"
@@ -83,6 +86,11 @@
     <fragment
         android:id="@+id/kleeFragment"
         android:name="com.example.genshinapp.KleeFragment"
-        android:label="fragment_klee"
+        android:label="Klee"
         tools:layout="@layout/fragment_klee" />
+    <fragment
+        android:id="@+id/monaFragment"
+        android:name="com.example.genshinapp.MonaFragment"
+        android:label="Mona Megistus"
+        tools:layout="@layout/fragment_mona" />
 </navigation>

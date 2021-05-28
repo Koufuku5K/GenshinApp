@@ -23,12 +23,12 @@
         android:id="@+id/lisa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="84dp"
-        android:layout_marginLeft="84dp"
         android:layout_marginTop="20dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginRight="84dp"
         android:text="Lisa"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/eula" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/klee" />
 
     <Button
         android:id="@+id/eula"
@@ -74,6 +74,17 @@
         android:text="Klee"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/venti" />
+
+    <Button
+        android:id="@+id/mona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="20dp"
+        android:text="Mona"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eula" />
 
     <Button
         android:id="@+id/previous2"

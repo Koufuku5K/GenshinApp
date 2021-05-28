@@ -97,4 +97,17 @@
     </p>
     </string>
 
+    <!-- Mona Text -->
+
+    <string name="monaOverview_txt">
+    <p><b>Mona Megistus</b> is a playable <b>Hydro</b> character in <i>Genshin Impact</i>.</p>
+    </string>
+
+    <string name="monaOverview2_txt">
+    <p>An astrologist of great skill and equally-great pride, Mona has taken up residence in <b>
+        Mondstadt</b> to avoid incurring the wrath of her master after unwittingly reading the
+        latter\'s diary.
+    </p>
+    </string>
+
 </resources>

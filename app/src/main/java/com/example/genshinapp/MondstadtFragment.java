@@ -94,6 +94,15 @@ public class MondstadtFragment extends Fragment {
             }
         });
 
+        //proceed to mona fragment when button is clicked
+        binding.mona.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(MondstadtFragment.this)
+                        .navigate(R.id.action_Mondstadt_to_monaFragment);
+            }
+        });
+
     }
 
     @Override
