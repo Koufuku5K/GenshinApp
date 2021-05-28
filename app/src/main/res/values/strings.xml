@@ -26,4 +26,17 @@
             of course, tirelessly working to maintain the City of Freedom. </p>
 
     </string>
+
+    <string name="lisaOverview_txt">
+        <p><b>Lisa Minci</b> is a playable <b>Electro</b> character in <i>Genshin Impact.</i> She
+            is received for free in the Prologue <b>Act I: The Outlander Who Caught the Wind</b>
+            during the quest <b>Sparks Amongst the Pages.</b></p>
+    </string>
+
+    <string name="lisaOverview2_txt">
+        <p>Once a grand mage recognized as the <b>Sumeru Academia</b>'s most distinguished graduate
+        in 200 years, Lisa has since returned to Mondstadt to become the humble Librarian of the
+        <b>Knights of Favonius</b>.</p>
+    </string>
+
 </resources>

@@ -39,10 +39,18 @@
         <action
             android:id="@+id/action_Mondstadt_to_jeanFragment"
             app:destination="@id/jeanFragment" />
+        <action
+            android:id="@+id/action_Mondstadt_to_lisaFragment"
+            app:destination="@id/lisaFragment" />
     </fragment>
     <fragment
         android:id="@+id/jeanFragment"
         android:name="com.example.genshinapp.JeanFragment"
         android:label="Jean Gunnhildr"
         tools:layout="@layout/fragment_jean" />
+    <fragment
+        android:id="@+id/lisaFragment"
+        android:name="com.example.genshinapp.LisaFragment"
+        android:label="Lisa Minci"
+        tools:layout="@layout/fragment_lisa" />
 </navigation>
