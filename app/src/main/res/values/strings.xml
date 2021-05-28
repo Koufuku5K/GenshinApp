@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">GenshinApp</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="overview"><b>Overview</b></string>
+    <string name="jeanOverview_txt">
+
+        <p><b>Jean Gunnhildr</b> is a playable <b>Anemo</b> character in
+        <b>Genshin Impact</b>. She is the daughter of <b>Frederica Gunnhildr</b> and <b>Seamus Pegg</b>,
+        and the older sister of <b>Barbara</b>.</p>
+
+    </string>
+    <string name="jeanOverview2_txt">
+
+        <p> A descendant of the prestigious <b>Gunnhildr Clan</b>, Jean is the Acting Grand Master of the
+        <b>Knights of Favoius</b>. She is always busy handling unrest across <b>Mondstadt</b> and
+            of course, tirelessly working to maintain the City of Freedom. </p>
+
+    </string>
+</resources>
