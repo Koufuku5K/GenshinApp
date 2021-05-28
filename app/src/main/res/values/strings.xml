@@ -18,6 +18,8 @@
         <i>Genshin Impact</i>. She is the daughter of <b>Frederica Gunnhildr</b> and <b>Seamus Pegg</b>,
         and the older sister of <b>Barbara</b>.</p>
 
+    <!-- Jean Text -->
+
     </string>
     <string name="jeanOverview2_txt">
 
@@ -26,6 +28,8 @@
             of course, tirelessly working to maintain the City of Freedom. </p>
 
     </string>
+
+    <!-- Lisa Text -->
 
     <string name="lisaOverview_txt">
         <p><b>Lisa Minci</b> is a playable <b>Electro</b> character in <i>Genshin Impact.</i> She
@@ -39,6 +43,8 @@
         <b>Knights of Favonius</b>.</p>
     </string>
 
+    <!-- Eula Text -->
+
     <string name="eulaOverview_txt">
         <p><b>Eula Lawrence</b> is a playable <b>Cryo</b> character in <i>Genshin Impact</i>.</p>
     </string>
@@ -50,6 +56,8 @@
         </p>
     </string>
 
+    <!-- Venti Text -->
+
     <string name="ventiOverview_txt">
     <p><b>Venti</b> is a free-spirited, wine-loving bard in <b>Mondstadt</b> and the current
     mortal vessel of <b>Barbatos</b>, the <b>Anemo Archon</b>. He is also a playable
@@ -59,6 +67,20 @@
     <string name="ventiOverview2_txt">
     <p>He first appears during the <b>Archon Quest Prologue</b>: Act I - <b>The Outlander Who
     Caught the Wind</b>.
+    </p>
+    </string>
+
+    <!-- Diluc Text -->
+
+    <string name="dilucOverview_txt">
+    <p><b>Diluc Ragnvindr</b> is a playable <b>Pyro</b> character in <i>Genshin Impact</i>.</p>
+    </string>
+
+    <string name="dilucOverview2_txt">
+    <p>Born  into the affluent <b>Ragnvindr Clan</b>, Diluc is the current owner of the <b>Dawn
+    Winery</b> and a nobleman of high esteem in <b>Mondstadt</b> society. While a past incident
+        caused him to split ways with the <b>Knights of Favonius</b>, he continues to protect
+        Mondstadt in his own way.
     </p>
     </string>
 

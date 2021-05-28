@@ -48,6 +48,9 @@
         <action
             android:id="@+id/action_Mondstadt_to_ventiFragment"
             app:destination="@id/ventiFragment" />
+        <action
+            android:id="@+id/action_Mondstadt_to_dilucFragment"
+            app:destination="@id/dilucFragment" />
     </fragment>
     <fragment
         android:id="@+id/jeanFragment"
@@ -69,4 +72,9 @@
         android:name="com.example.genshinapp.VentiFragment"
         android:label="Venti"
         tools:layout="@layout/fragment_venti" />
+    <fragment
+        android:id="@+id/dilucFragment"
+        android:name="com.example.genshinapp.DilucFragment"
+        android:label="Diluc Ragnvindr"
+        tools:layout="@layout/fragment_diluc" />
 </navigation>
