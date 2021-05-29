@@ -121,5 +121,14 @@
         android:id="@+id/mondstadt2"
         android:name="com.example.genshinapp.Mondstadt2Fragment"
         android:label="Mondstadt"
-        tools:layout="@layout/fragment_mondstadt2" />
+        tools:layout="@layout/fragment_mondstadt2" >
+        <action
+            android:id="@+id/action_mondstadt2_to_barbaraFragment"
+            app:destination="@id/barbaraFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/barbaraFragment"
+        android:name="com.example.genshinapp.BarbaraFragment"
+        android:label="Barbara Pegg"
+        tools:layout="@layout/fragment_barbara" />
 </navigation>

@@ -154,4 +154,20 @@
     </p>
     </string>
 
+    <!-- Barbara Text -->
+
+    <string name="barbaraOverview_txt">
+    <p><b>Barbara Pegg</b> is a playable <b>Hydro</b> character in <i>Genshin Impact</i>. She is
+    received for free in the <b>Baptism of Song</b> Event for completing the quest <b>A Long
+        Shot</b> during the <b>Prologue</b> Act III: <b>Song of Dragon and Freedom</b>. She is
+    the daughter of <b>Frederica Gunnhildr</b> and <b>Seamus Pegg</b>, and the younger sister of
+    <b>Jean</b>.</p>
+    </string>
+
+    <string name="barbaraOverview2_txt">
+    <p>Barbara is the deaconess of the <b>Church of Favonius</b> and a self-proclaimed "idol" after
+        learning about them from the intrepid adventurer <b>Alice</b>.
+    </p>
+    </string>
+
 </resources>

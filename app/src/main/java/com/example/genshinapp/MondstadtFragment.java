@@ -36,7 +36,7 @@ public class MondstadtFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(MondstadtFragment.this)
-                        .navigate(R.id.action_Mondstadt_to_mondstadt2Fragment);
+                        .navigate(R.id.action_Mondstadt_to_mondstadt2);
             }
         });
 
