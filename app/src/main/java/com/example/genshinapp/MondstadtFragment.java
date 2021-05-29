@@ -31,12 +31,12 @@ public class MondstadtFragment extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        //return to previous fragment
+        //proceed to next fragment
         binding.next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(MondstadtFragment.this)
-                        .navigate(R.id.action_Mondstadt_to_Mondstadt2);
+                        .navigate(R.id.action_Mondstadt_to_mondstadt2Fragment);
             }
         });
 
