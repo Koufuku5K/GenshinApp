@@ -61,8 +61,11 @@
             android:id="@+id/action_Mondstadt_to_amberFragment"
             app:destination="@id/amberFragment" />
         <action
-            android:id="@+id/action_Mondstadt_to_mondstadt2Fragment"
-            app:destination="@id/mondstadt2Fragment" />
+            android:id="@+id/action_Mondstadt_to_kaeyaFragment"
+            app:destination="@id/kaeyaFragment" />
+        <action
+            android:id="@+id/action_Mondstadt_to_mondstadt2"
+            app:destination="@id/mondstadt2" />
     </fragment>
     <fragment
         android:id="@+id/jeanFragment"
@@ -110,7 +113,12 @@
         android:label="Amber"
         tools:layout="@layout/fragment_amber" />
     <fragment
-        android:id="@+id/mondstadt2Fragment"
+        android:id="@+id/kaeyaFragment"
+        android:name="com.example.genshinapp.KaeyaFragment"
+        android:label="Kaeya Alberich"
+        tools:layout="@layout/fragment_kaeya" />
+    <fragment
+        android:id="@+id/mondstadt2"
         android:name="com.example.genshinapp.Mondstadt2Fragment"
         android:label="Mondstadt"
         tools:layout="@layout/fragment_mondstadt2" />

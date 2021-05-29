@@ -140,4 +140,18 @@
     </p>
     </string>
 
+    <!-- Kaeya Text -->
+
+    <string name="kaeyaOverview_txt">
+    <p><b>Kaeya Alberich</b> is a playable <b>Cryo</b> character in <i>Genshin Impact</i>. He is
+    received for free in the Prologue, Act I: <b>The Outlander Who Caught the Wind</b> during
+    the quest <b>Crash Course</b>.</p>
+    </string>
+
+    <string name="kaeyaOverview2_txt">
+    <p>Kaeya is a Cavalry Captain in the <b>Knights of Favonius</b>. He is held in high regard by
+        the people of <b>Mondstadt</b> - even with all his eccentricities and secrets.
+    </p>
+    </string>
+
 </resources>
