@@ -125,4 +125,19 @@
     </p>
     </string>
 
+    <!-- Amber Text -->
+
+    <string name="amberOverview_txt">
+    <p><b>Amber</b> is a playable <b>Pyro</b> character in <i>Genshin Impact</i>. She is
+    received for free in the Prologue <b>Act I: The Outlander Who Caught the Wind</b> during
+    the quest <b>Winds of the Past</b>.</p>
+    </string>
+
+    <string name="amberOverview2_txt">
+    <p>Amber is the only remaining Outrider of the <b>Knights of Favonius</b>. She is always ready
+        to help the citizens of <b>Mondstadt</b> - whether it be something ismple or perhaps a more
+        challenging task.
+    </p>
+    </string>
+
 </resources>

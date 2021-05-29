@@ -34,9 +34,6 @@
         android:label="Mondstadt"
         tools:layout="@layout/fragment_mondstadt">
         <action
-            android:id="@+id/action_Mondstadt_to_Region"
-            app:destination="@id/Region" />
-        <action
             android:id="@+id/action_Mondstadt_to_jeanFragment"
             app:destination="@id/jeanFragment" />
         <action
@@ -60,6 +57,12 @@
         <action
             android:id="@+id/action_Mondstadt_to_albedoFragment"
             app:destination="@id/albedoFragment" />
+        <action
+            android:id="@+id/action_Mondstadt_to_amberFragment"
+            app:destination="@id/amberFragment" />
+        <action
+            android:id="@+id/action_Mondstadt_to_mondstadt2Fragment"
+            app:destination="@id/mondstadt2Fragment" />
     </fragment>
     <fragment
         android:id="@+id/jeanFragment"
@@ -101,4 +104,14 @@
         android:name="com.example.genshinapp.AlbedoFragment"
         android:label="Albedo"
         tools:layout="@layout/fragment_albedo" />
+    <fragment
+        android:id="@+id/amberFragment"
+        android:name="com.example.genshinapp.AmberFragment"
+        android:label="Amber"
+        tools:layout="@layout/fragment_amber" />
+    <fragment
+        android:id="@+id/mondstadt2Fragment"
+        android:name="com.example.genshinapp.Mondstadt2Fragment"
+        android:label="Mondstadt"
+        tools:layout="@layout/fragment_mondstadt2" />
 </navigation>

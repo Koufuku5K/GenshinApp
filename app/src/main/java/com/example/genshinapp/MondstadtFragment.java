@@ -32,11 +32,11 @@ public class MondstadtFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         //return to previous fragment
-        binding.previous2.setOnClickListener(new View.OnClickListener() {
+        binding.next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(MondstadtFragment.this)
-                        .navigate(R.id.action_Mondstadt_to_Region);
+                        .navigate(R.id.action_Mondstadt_to_Mondstadt2);
             }
         });
 
@@ -109,6 +109,15 @@ public class MondstadtFragment extends Fragment {
             public void onClick(View view) {
                 NavHostFragment.findNavController(MondstadtFragment.this)
                         .navigate(R.id.action_Mondstadt_to_albedoFragment);
+            }
+        });
+
+        //proceed to amber fragment when button is clicked
+        binding.amber.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(MondstadtFragment.this)
+                        .navigate(R.id.action_Mondstadt_to_amberFragment);
             }
         });
 
