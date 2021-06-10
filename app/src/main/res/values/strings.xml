@@ -198,4 +198,16 @@
         </p>
     </string>
 
+    <!-- Noelle Text -->
+
+    <string name="noelleOverview_txt">
+    <p><b>Noelle</b> is a playable <b>Geo</b> character in <i>Genshin Impact</i>.</p>
+    </string>
+
+    <string name="noelleOverview2_txt">
+        <p>While not yet a knight, she seeks to one day join the <b>Knights of Favonius</b> by
+            first serving as a dutiful maid.
+        </p>
+    </string>
+
 </resources>

@@ -131,6 +131,9 @@
         <action
             android:id="@+id/action_mondstadt2_to_bennettFragment"
             app:destination="@id/bennettFragment" />
+        <action
+            android:id="@+id/action_mondstadt2_to_noelleFragment"
+            app:destination="@id/noelleFragment" />
     </fragment>
     <fragment
         android:id="@+id/barbaraFragment"
@@ -147,4 +150,9 @@
         android:name="com.example.genshinapp.BennettFragment"
         android:label="Bennett"
         tools:layout="@layout/fragment_bennett" />
+    <fragment
+        android:id="@+id/noelleFragment"
+        android:name="com.example.genshinapp.NoelleFragment"
+        android:label="Noelle"
+        tools:layout="@layout/fragment_noelle" />
 </navigation>
