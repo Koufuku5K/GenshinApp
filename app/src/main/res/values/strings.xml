@@ -210,4 +210,18 @@
         </p>
     </string>
 
+    <!-- Fischl Text -->
+
+    <string name="fischlOverview_txt">
+    <p><b>Fischl</b> is a playable <b>Electro</b> character in <i>Genshin Impact</i>.</p>
+    </string>
+
+    <string name="fischlOverview2_txt">
+        <p>Fischl is an investigator for <b>Mondstadt</b>\'s <b>Adventurer\'s Guild</b>,
+            accompanied by the night raven <b>Oz</b>. Fischl claims to hail from a world beyond
+            <b>Teyvat</b>. She is a daring adventurer with seemly outlandish theories that happen
+            to turn out to be true.
+        </p>
+    </string>
+
 </resources>

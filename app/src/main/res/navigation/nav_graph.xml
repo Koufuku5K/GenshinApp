@@ -134,6 +134,9 @@
         <action
             android:id="@+id/action_mondstadt2_to_noelleFragment"
             app:destination="@id/noelleFragment" />
+        <action
+            android:id="@+id/action_mondstadt2_to_fischlFragment"
+            app:destination="@id/fischlFragment" />
     </fragment>
     <fragment
         android:id="@+id/barbaraFragment"
@@ -155,4 +158,9 @@
         android:name="com.example.genshinapp.NoelleFragment"
         android:label="Noelle"
         tools:layout="@layout/fragment_noelle" />
+    <fragment
+        android:id="@+id/fischlFragment"
+        android:name="com.example.genshinapp.FischlFragment"
+        android:label="Fischl"
+        tools:layout="@layout/fragment_fischl" />
 </navigation>
