@@ -250,4 +250,14 @@
         </p>
     </string>
 
+    <!-- Rosaria Text -->
+
+    <string name="rosariaOverview_txt">
+    <p><b>Rosaria</b> is a playable <b>Cryo</b> character in <i>Genshin Impact</i>.</p>
+    </string>
+
+    <string name="rosariaOverview2_txt">
+        <p>She is a member of the <b>Church of Favonius</b> in Mondstadt.</p>
+    </string>
+
 </resources>

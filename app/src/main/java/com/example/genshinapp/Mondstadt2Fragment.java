@@ -99,7 +99,7 @@ public class Mondstadt2Fragment extends Fragment {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(Mondstadt2Fragment.this)
-                        .navigate(R.id.action_Mondstadt_to_albedoFragment);
+                        .navigate(R.id.action_mondstadt2_to_rosariaFragment);
             }
         });
 
