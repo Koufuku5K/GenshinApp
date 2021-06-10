@@ -236,4 +236,18 @@
         </p>
     </string>
 
+    <!-- Diona Text -->
+
+    <string name="dionaOverview_txt">
+    <p><b>Diona</b> is a playable <b>Cryo</b> character in <i>Genshin Impact</i>. She is the
+        daughter of <b>Draff</b>, a hunter in Springvale.</p>
+    </string>
+
+    <string name="dionaOverview2_txt">
+        <p>Despite being a bartender at <b>Cat\'s Tail</b>, she actually despises alcohol and wants
+        nothing more than to ruin <b>Mondstadt</b>\'s wine industry - a feat easier said than
+        done when her patrons absolutely love her drinks.
+        </p>
+    </string>
+
 </resources>

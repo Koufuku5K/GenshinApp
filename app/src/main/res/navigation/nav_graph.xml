@@ -140,6 +140,9 @@
         <action
             android:id="@+id/action_mondstadt2_to_sucroseFragment"
             app:destination="@id/sucroseFragment" />
+        <action
+            android:id="@+id/action_mondstadt2_to_dionaFragment"
+            app:destination="@id/dionaFragment" />
     </fragment>
     <fragment
         android:id="@+id/barbaraFragment"
@@ -174,7 +177,7 @@
     <fragment
         android:id="@+id/dionaFragment"
         android:name="com.example.genshinapp.DionaFragment"
-        android:label="fragment_diona"
+        android:label="Diona"
         tools:layout="@layout/fragment_diona" />
     <fragment
         android:id="@+id/rosariaFragment"
