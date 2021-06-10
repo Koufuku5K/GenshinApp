@@ -128,6 +128,9 @@
         <action
             android:id="@+id/action_mondstadt2_to_razorFragment"
             app:destination="@id/razorFragment" />
+        <action
+            android:id="@+id/action_mondstadt2_to_bennettFragment"
+            app:destination="@id/bennettFragment" />
     </fragment>
     <fragment
         android:id="@+id/barbaraFragment"
@@ -139,4 +142,9 @@
         android:name="com.example.genshinapp.RazorFragment"
         android:label="Razor"
         tools:layout="@layout/fragment_razor" />
+    <fragment
+        android:id="@+id/bennettFragment"
+        android:name="com.example.genshinapp.BennettFragment"
+        android:label="Bennett"
+        tools:layout="@layout/fragment_bennett" />
 </navigation>

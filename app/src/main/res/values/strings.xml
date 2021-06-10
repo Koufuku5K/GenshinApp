@@ -184,4 +184,18 @@
         </p>
     </string>
 
+    <!-- Bennett Text -->
+
+    <string name="bennettOverview_txt">
+    <p><b>Bennett</b> is a playable <b>Pyro</b> character in <i>Genshin Impact</i>.</p>
+    </string>
+
+    <string name="bennettOverview2_txt">
+        <p>An orphan discovered by an elderly adventurer as a baby, Bennett was raised in
+            <b>Mondstadt</b>\'s <b>Adventurers\' Guild</b>. He is the only member of "<b>Benny\'s
+            Adventure Team</b>," as everyone else left the team after experiencing the constant
+            misfortune that follows him.
+        </p>
+    </string>
+
 </resources>
