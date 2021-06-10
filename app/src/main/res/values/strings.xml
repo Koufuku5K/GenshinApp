@@ -224,4 +224,16 @@
         </p>
     </string>
 
+    <!-- Sucrose Text -->
+
+    <string name="sucroseOverview_txt">
+    <p><b>Sucrose</b> is a playable <b>Anemo</b> character in <i>Genshin Impact</i>.</p>
+    </string>
+
+    <string name="sucroseOverview2_txt">
+        <p>An alchemist specializing in bio-alchemy, she also serves as an assistant for
+            <b>Albedo</b>, the head alchemist of the <b>Knights of Favonius</b>.
+        </p>
+    </string>
+
 </resources>

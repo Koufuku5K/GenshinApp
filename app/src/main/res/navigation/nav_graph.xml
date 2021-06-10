@@ -137,6 +137,9 @@
         <action
             android:id="@+id/action_mondstadt2_to_fischlFragment"
             app:destination="@id/fischlFragment" />
+        <action
+            android:id="@+id/action_mondstadt2_to_sucroseFragment"
+            app:destination="@id/sucroseFragment" />
     </fragment>
     <fragment
         android:id="@+id/barbaraFragment"
@@ -163,4 +166,19 @@
         android:name="com.example.genshinapp.FischlFragment"
         android:label="Fischl"
         tools:layout="@layout/fragment_fischl" />
+    <fragment
+        android:id="@+id/sucroseFragment"
+        android:name="com.example.genshinapp.SucroseFragment"
+        android:label="Sucrose"
+        tools:layout="@layout/fragment_sucrose" />
+    <fragment
+        android:id="@+id/dionaFragment"
+        android:name="com.example.genshinapp.DionaFragment"
+        android:label="fragment_diona"
+        tools:layout="@layout/fragment_diona" />
+    <fragment
+        android:id="@+id/rosariaFragment"
+        android:name="com.example.genshinapp.RosariaFragment"
+        android:label="fragment_rosaria"
+        tools:layout="@layout/fragment_rosaria" />
 </navigation>
