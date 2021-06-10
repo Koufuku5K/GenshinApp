@@ -125,10 +125,18 @@
         <action
             android:id="@+id/action_mondstadt2_to_barbaraFragment"
             app:destination="@id/barbaraFragment" />
+        <action
+            android:id="@+id/action_mondstadt2_to_razorFragment"
+            app:destination="@id/razorFragment" />
     </fragment>
     <fragment
         android:id="@+id/barbaraFragment"
         android:name="com.example.genshinapp.BarbaraFragment"
         android:label="Barbara Pegg"
         tools:layout="@layout/fragment_barbara" />
+    <fragment
+        android:id="@+id/razorFragment"
+        android:name="com.example.genshinapp.RazorFragment"
+        android:label="Razor"
+        tools:layout="@layout/fragment_razor" />
 </navigation>

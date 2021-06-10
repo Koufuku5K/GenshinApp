@@ -170,4 +170,18 @@
     </p>
     </string>
 
+    <!-- Razor Text -->
+
+    <string name="razorOverview_txt">
+    <p><b>Razor</b> is a playable <b>Electro</b> character in <i>Genshin Impact</i>.</p>
+    </string>
+
+    <string name="razorOverview2_txt">
+        <p>Abandoned as an infant, Razor was taken in by the <b>Wolf of the North</b>, <b>Andrius</b>
+            , and raised by his wolf pack in <b>Wolvendom</b>. After a chance encounter with
+            <b>Varka</b>, the current Grand Master of the <b>Knights of Favonius</b> and the
+            Knight of Boreas, he has slowly started integrating with humans again.
+        </p>
+    </string>
+
 </resources>
