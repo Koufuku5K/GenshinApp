@@ -25,7 +25,10 @@
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/GenshinApp" />
         <action
-            android:id="@+id/action_SecondFragment_to_mondstadtFragment5"
+            android:id="@+id/action_Region_to_Liyue"
+            app:destination="@id/Liyue" />
+        <action
+            android:id="@+id/action_Region_to_Mondstadt"
             app:destination="@id/Mondstadt" />
     </fragment>
     <fragment
@@ -187,4 +190,18 @@
         android:name="com.example.genshinapp.RosariaFragment"
         android:label="Rosaria"
         tools:layout="@layout/fragment_rosaria" />
+    <fragment
+        android:id="@+id/Liyue"
+        android:name="com.example.genshinapp.LiyueFragment"
+        android:label="Liyue"
+        tools:layout="@layout/fragment_liyue">
+        <action
+            android:id="@+id/action_Liyue_to_keqingFragment"
+            app:destination="@id/keqingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/keqingFragment"
+        android:name="com.example.genshinapp.KeqingFragment"
+        android:label="Keqing"
+        tools:layout="@layout/fragment_keqing" />
 </navigation>

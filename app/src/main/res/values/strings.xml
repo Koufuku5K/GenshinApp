@@ -260,4 +260,16 @@
         <p>She is a member of the <b>Church of Favonius</b> in Mondstadt.</p>
     </string>
 
+    <!-- Keqing Text -->
+
+    <string name="keqingOverview_txt">
+    <p><b>Keqing</b> is a playable <b>Electro</b> character in <i>Genshin Impact</i>.</p>
+    </string>
+
+    <string name="keqingOverview2_txt">
+        <p>As the Yuheng of the <b>Liyue Qixing</b>, she is someone who seeks her own answers
+        instead of idly letting chaos run amok in Liyue. She chooses her own path with her own
+        power and ability, instead of letting the gods determine her fate.</p>
+    </string>
+
 </resources>

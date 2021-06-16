@@ -41,8 +41,16 @@ public class SecondFragment extends Fragment {
            @Override
            public void onClick(View view) {
                NavHostFragment.findNavController(SecondFragment.this)
-                       .navigate(R.id.action_SecondFragment_to_mondstadtFragment5);
+                       .navigate(R.id.action_Region_to_Mondstadt);
            }
+        });
+
+        binding.liyue.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(SecondFragment.this)
+                        .navigate(R.id.action_Region_to_Liyue);
+            }
         });
 
     }
